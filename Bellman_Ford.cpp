@@ -6,7 +6,7 @@ int Bellman_Ford(int G[20][20],int V,int E,int edge[20][2])
 	for(i=0;i<V;i++)	
           distance[i]=1000, parent[i]=-1;
           printf("Enter Source:");
-scanf("%d",&S);
+		scanf("%d",&S);
         distance[S-1]=0 ;
     for(i=0;i<V-1;i++)
     {
